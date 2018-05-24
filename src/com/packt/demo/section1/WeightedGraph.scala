@@ -5,9 +5,9 @@ case class WeightedEdge[V](desitination: V, weight:Int)
 class WeightedGraph[V](adjList:Map[V, List[WeightedEdge[V]]]) extends Graph[V]{
   override def vertices: List[V] = adjList.keys.toList
 
-  override def edges: List[(V, V)] = adjList.flatMap { case (v, edgeList) =>
+  override def edges: List[(V, V)] = adjList.toList.flatMap { case (v, edgeList) =>
     edgeList.map(e => v -> e.desitination)
-  }.toList
+  }
 
   def addEdge(a: V, weightedEdge: WeightedEdge[V]): WeightedGraph[V] = {
     val aNeighbours = weightedEdge +: adjList.getOrElse(a, Nil)
