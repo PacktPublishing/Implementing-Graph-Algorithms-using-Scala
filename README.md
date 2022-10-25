@@ -31,3 +31,7 @@ IDE such as Intellij or Eclipse
 
 * [Hands-on GraphQL for Better RESTful Web Services [Video]](https://www.packtpub.com/application-development/hands-graphql-better-restful-web-services-video?utm_source=github&utm_medium=repository&utm_campaign=9781788995627)
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781788472364">https://packt.link/free-ebook/9781788472364 </a> </p>
